@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TourKenya.xcscheme</key>
+		<key>Tour Kenya.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E52D743E1D3E7BAE00D5C8FC</key>
+		<key>E5BD41E31D533BE600A2AD8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E52D745A1D3E7BAE00D5C8FC</key>
+		<key>E5BD41FF1D533BE600A2AD8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E52D74651D3E7BAE00D5C8FC</key>
+		<key>E5BD420A1D533BE600A2AD8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,18 +1,18 @@
 //
-//  TourKenyaUITests.m
-//  TourKenyaUITests
+//  Tour_KenyaUITests.m
+//  Tour KenyaUITests
 //
-//  Created by ilabafrica on 7/19/16.
-//  Copyright © 2016 ILabAfrica. All rights reserved.
+//  Created by ilabafrica on 04/08/2016.
+//  Copyright © 2016 strathmore. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface TourKenyaUITests : XCTestCase
+@interface Tour_KenyaUITests : XCTestCase
 
 @end
 
-@implementation TourKenyaUITests
+@implementation Tour_KenyaUITests
 
 - (void)setUp {
     [super setUp];

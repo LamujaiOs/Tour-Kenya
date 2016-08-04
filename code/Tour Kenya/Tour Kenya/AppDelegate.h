@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TourKenya
+//  Tour Kenya
 //
-//  Created by ilabafrica on 7/19/16.
-//  Copyright © 2016 ILabAfrica. All rights reserved.
+//  Created by ilabafrica on 04/08/2016.
+//  Copyright © 2016 strathmore. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

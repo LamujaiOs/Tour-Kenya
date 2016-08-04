@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E52D743E1D3E7BAE00D5C8FC"
-               BuildableName = "TourKenya.app"
-               BlueprintName = "TourKenya"
-               ReferencedContainer = "container:TourKenya.xcodeproj">
+               BlueprintIdentifier = "E5BD41E31D533BE600A2AD8F"
+               BuildableName = "Tour Kenya.app"
+               BlueprintName = "Tour Kenya"
+               ReferencedContainer = "container:Tour Kenya.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E52D745A1D3E7BAE00D5C8FC"
-               BuildableName = "TourKenyaTests.xctest"
-               BlueprintName = "TourKenyaTests"
-               ReferencedContainer = "container:TourKenya.xcodeproj">
+               BlueprintIdentifier = "E5BD41FF1D533BE600A2AD8F"
+               BuildableName = "Tour KenyaTests.xctest"
+               BlueprintName = "Tour KenyaTests"
+               ReferencedContainer = "container:Tour Kenya.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E52D74651D3E7BAE00D5C8FC"
-               BuildableName = "TourKenyaUITests.xctest"
-               BlueprintName = "TourKenyaUITests"
-               ReferencedContainer = "container:TourKenya.xcodeproj">
+               BlueprintIdentifier = "E5BD420A1D533BE600A2AD8F"
+               BuildableName = "Tour KenyaUITests.xctest"
+               BlueprintName = "Tour KenyaUITests"
+               ReferencedContainer = "container:Tour Kenya.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E52D743E1D3E7BAE00D5C8FC"
-            BuildableName = "TourKenya.app"
-            BlueprintName = "TourKenya"
-            ReferencedContainer = "container:TourKenya.xcodeproj">
+            BlueprintIdentifier = "E5BD41E31D533BE600A2AD8F"
+            BuildableName = "Tour Kenya.app"
+            BlueprintName = "Tour Kenya"
+            ReferencedContainer = "container:Tour Kenya.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E52D743E1D3E7BAE00D5C8FC"
-            BuildableName = "TourKenya.app"
-            BlueprintName = "TourKenya"
-            ReferencedContainer = "container:TourKenya.xcodeproj">
+            BlueprintIdentifier = "E5BD41E31D533BE600A2AD8F"
+            BuildableName = "Tour Kenya.app"
+            BlueprintName = "Tour Kenya"
+            ReferencedContainer = "container:Tour Kenya.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E52D743E1D3E7BAE00D5C8FC"
-            BuildableName = "TourKenya.app"
-            BlueprintName = "TourKenya"
-            ReferencedContainer = "container:TourKenya.xcodeproj">
+            BlueprintIdentifier = "E5BD41E31D533BE600A2AD8F"
+            BuildableName = "Tour Kenya.app"
+            BlueprintName = "Tour Kenya"
+            ReferencedContainer = "container:Tour Kenya.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
