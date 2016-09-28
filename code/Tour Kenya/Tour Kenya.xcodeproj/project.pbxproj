@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116B1CA6C77E7B27E5E4FF44 /* libPods-Tour KenyaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */; };
+		A16CA1AF1D9BB74000F5DC7D /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CA1AE1D9BB74000F5DC7D /* Place.m */; };
+		A16CA1B11D9BDB4100F5DC7D /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16CA1B01D9BDB4100F5DC7D /* default.jpg */; };
+		A172AB2A1D59F13C00C187B9 /* PlaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A172AB291D59F13C00C187B9 /* PlaceDetailsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A172AB2D1D59FAA200C187B9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A172AB2C1D59FAA200C187B9 /* MapViewController.m */; };
+		A1A6BC931D5A0129003E55C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */; };
+		A1A6BC951D5A013D003E55C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A6BC941D5A013D003E55C4 /* MapKit.framework */; };
+		BBC7A206CA5BC2BE80071D1F /* libPods-Tour KenyaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0BF2BFDF507043036633C /* libPods-Tour KenyaTests.a */; };
 		E5BD41E91D533BE600A2AD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41E81D533BE600A2AD8F /* main.m */; };
 		E5BD41EC1D533BE600A2AD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */; };
 		E5BD41EF1D533BE600A2AD8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41EE1D533BE600A2AD8F /* ViewController.m */; };
@@ -16,6 +24,7 @@
 		E5BD41FA1D533BE600A2AD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD41F81D533BE600A2AD8F /* LaunchScreen.storyboard */; };
 		E5BD42051D533BE600A2AD8F /* Tour_KenyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD42041D533BE600A2AD8F /* Tour_KenyaTests.m */; };
 		E5BD42101D533BE600A2AD8F /* Tour_KenyaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD420F1D533BE600A2AD8F /* Tour_KenyaUITests.m */; };
+		ECA1D5A2217C08300D2EE48E /* libPods-Tour Kenya.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0C2E36AD8B129477647BC1 /* libPods-Tour Kenya.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23F0B4BA41470B7EB7510958 /* Pods-Tour Kenya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour Kenya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour Kenya/Pods-Tour Kenya.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3107DD8663C9135ACE564D /* Pods-Tour KenyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaUITests/Pods-Tour KenyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53A0BF2BFDF507043036633C /* libPods-Tour KenyaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour KenyaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0C2E36AD8B129477647BC1 /* libPods-Tour Kenya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour Kenya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ACA0153E41E2774D4F5008 /* Pods-Tour KenyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C709E8E766816A939AA323B /* Pods-Tour KenyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaUITests/Pods-Tour KenyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C75FAF9C4D3B8EF9D2092CE /* Pods-Tour Kenya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour Kenya.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour Kenya/Pods-Tour Kenya.release.xcconfig"; sourceTree = "<group>"; };
+		A16CA1AD1D9BB74000F5DC7D /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		A16CA1AE1D9BB74000F5DC7D /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		A16CA1B01D9BDB4100F5DC7D /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = default.jpg; path = ../default.jpg; sourceTree = "<group>"; };
+		A172AB281D59F13C00C187B9 /* PlaceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailsViewController.h; sourceTree = "<group>"; };
+		A172AB291D59F13C00C187B9 /* PlaceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailsViewController.m; sourceTree = "<group>"; };
+		A172AB2B1D59FAA200C187B9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A172AB2C1D59FAA200C187B9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1A6BC941D5A013D003E55C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A91DD6B051482D866C71E9E2 /* Pods-Tour KenyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour KenyaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD41E41D533BE600A2AD8F /* Tour Kenya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Kenya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD41E81D533BE600A2AD8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5BD41EA1D533BE600A2AD8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A6BC951D5A013D003E55C4 /* MapKit.framework in Frameworks */,
+				A1A6BC931D5A0129003E55C4 /* CoreLocation.framework in Frameworks */,
+				ECA1D5A2217C08300D2EE48E /* libPods-Tour Kenya.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC7A206CA5BC2BE80071D1F /* libPods-Tour KenyaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +105,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116B1CA6C77E7B27E5E4FF44 /* libPods-Tour KenyaUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A172AB261D59ED1D00C187B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD41ED1D533BE600A2AD8F /* ViewController.h */,
+				E5BD41EE1D533BE600A2AD8F /* ViewController.m */,
+				A172AB281D59F13C00C187B9 /* PlaceDetailsViewController.h */,
+				A172AB291D59F13C00C187B9 /* PlaceDetailsViewController.m */,
+				A172AB2B1D59FAA200C187B9 /* MapViewController.h */,
+				A172AB2C1D59FAA200C187B9 /* MapViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A172AB271D59ED2600C187B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A16CA1AD1D9BB74000F5DC7D /* Place.h */,
+				A16CA1AE1D9BB74000F5DC7D /* Place.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AC328119F85A84A2CC779DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1A6BC941D5A013D003E55C4 /* MapKit.framework */,
+				A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */,
+				6C0C2E36AD8B129477647BC1 /* libPods-Tour Kenya.a */,
+				53A0BF2BFDF507043036633C /* libPods-Tour KenyaTests.a */,
+				CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E8FC081A66789CC0BCEC43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23F0B4BA41470B7EB7510958 /* Pods-Tour Kenya.debug.xcconfig */,
+				9C75FAF9C4D3B8EF9D2092CE /* Pods-Tour Kenya.release.xcconfig */,
+				A91DD6B051482D866C71E9E2 /* Pods-Tour KenyaTests.debug.xcconfig */,
+				76ACA0153E41E2774D4F5008 /* Pods-Tour KenyaTests.release.xcconfig */,
+				8C709E8E766816A939AA323B /* Pods-Tour KenyaUITests.debug.xcconfig */,
+				4C3107DD8663C9135ACE564D /* Pods-Tour KenyaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E5BD41DB1D533BE600A2AD8F = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +166,8 @@
 				E5BD42031D533BE600A2AD8F /* Tour KenyaTests */,
 				E5BD420E1D533BE600A2AD8F /* Tour KenyaUITests */,
 				E5BD41E51D533BE600A2AD8F /* Products */,
+				E3E8FC081A66789CC0BCEC43 /* Pods */,
+				AC328119F85A84A2CC779DC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +184,11 @@
 		E5BD41E61D533BE600A2AD8F /* Tour Kenya */ = {
 			isa = PBXGroup;
 			children = (
+				A16CA1B01D9BDB4100F5DC7D /* default.jpg */,
+				A172AB271D59ED2600C187B9 /* Models */,
+				A172AB261D59ED1D00C187B9 /* Controllers */,
 				E5BD41EA1D533BE600A2AD8F /* AppDelegate.h */,
 				E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */,
-				E5BD41ED1D533BE600A2AD8F /* ViewController.h */,
-				E5BD41EE1D533BE600A2AD8F /* ViewController.m */,
 				E5BD41F01D533BE600A2AD8F /* Main.storyboard */,
 				E5BD41F61D533BE600A2AD8F /* Assets.xcassets */,
 				E5BD41F81D533BE600A2AD8F /* LaunchScreen.storyboard */,
@@ -150,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BD42141D533BE600A2AD8F /* Build configuration list for PBXNativeTarget "Tour Kenya" */;
 			buildPhases = (
+				2AF9F7F43A375576DAE80030 /* [CP] Check Pods Manifest.lock */,
 				E5BD41E01D533BE600A2AD8F /* Sources */,
 				E5BD41E11D533BE600A2AD8F /* Frameworks */,
 				E5BD41E21D533BE600A2AD8F /* Resources */,
+				E237542274B7B49C2E8BC6B6 /* [CP] Embed Pods Frameworks */,
+				F68176C2AC8E8184739CD2FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BD42171D533BE600A2AD8F /* Build configuration list for PBXNativeTarget "Tour KenyaTests" */;
 			buildPhases = (
+				19E32F2E18C02507D8DDD124 /* [CP] Check Pods Manifest.lock */,
 				E5BD41FC1D533BE600A2AD8F /* Sources */,
 				E5BD41FD1D533BE600A2AD8F /* Frameworks */,
 				E5BD41FE1D533BE600A2AD8F /* Resources */,
+				29E9DAD3F2BAAB875AA057DE /* [CP] Embed Pods Frameworks */,
+				8C04CCA1FE896BF05669E7A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BD421A1D533BE600A2AD8F /* Build configuration list for PBXNativeTarget "Tour KenyaUITests" */;
 			buildPhases = (
+				A9469B95A69BBD7420DBE201 /* [CP] Check Pods Manifest.lock */,
 				E5BD42071D533BE600A2AD8F /* Sources */,
 				E5BD42081D533BE600A2AD8F /* Frameworks */,
 				E5BD42091D533BE600A2AD8F /* Resources */,
+				34E53A808B62206FCFEC1FE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +339,7 @@
 				E5BD41FA1D533BE600A2AD8F /* LaunchScreen.storyboard in Resources */,
 				E5BD41F71D533BE600A2AD8F /* Assets.xcassets in Resources */,
 				E5BD41F21D533BE600A2AD8F /* Main.storyboard in Resources */,
+				A16CA1B11D9BDB4100F5DC7D /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +359,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E32F2E18C02507D8DDD124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29E9DAD3F2BAAB875AA057DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF9F7F43A375576DAE80030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34E53A808B62206FCFEC1FE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour KenyaUITests/Pods-Tour KenyaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C04CCA1FE896BF05669E7A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9469B95A69BBD7420DBE201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E237542274B7B49C2E8BC6B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour Kenya/Pods-Tour Kenya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68176C2AC8E8184739CD2FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour Kenya/Pods-Tour Kenya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5BD41E01D533BE600A2AD8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A172AB2A1D59F13C00C187B9 /* PlaceDetailsViewController.m in Sources */,
 				E5BD41F51D533BE600A2AD8F /* Tour_Kenya.xcdatamodeld in Sources */,
+				A16CA1AF1D9BB74000F5DC7D /* Place.m in Sources */,
 				E5BD41EF1D533BE600A2AD8F /* ViewController.m in Sources */,
+				A172AB2D1D59FAA200C187B9 /* MapViewController.m in Sources */,
 				E5BD41EC1D533BE600A2AD8F /* AppDelegate.m in Sources */,
 				E5BD41E91D533BE600A2AD8F /* main.m in Sources */,
 			);
@@ -415,6 +632,7 @@
 		};
 		E5BD42151D533BE600A2AD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F0B4BA41470B7EB7510958 /* Pods-Tour Kenya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tour Kenya/Info.plist";
@@ -427,6 +645,7 @@
 		};
 		E5BD42161D533BE600A2AD8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C75FAF9C4D3B8EF9D2092CE /* Pods-Tour Kenya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tour Kenya/Info.plist";
@@ -439,6 +658,7 @@
 		};
 		E5BD42181D533BE600A2AD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91DD6B051482D866C71E9E2 /* Pods-Tour KenyaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Tour KenyaTests/Info.plist";
@@ -451,6 +671,7 @@
 		};
 		E5BD42191D533BE600A2AD8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76ACA0153E41E2774D4F5008 /* Pods-Tour KenyaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Tour KenyaTests/Info.plist";
@@ -463,6 +684,7 @@
 		};
 		E5BD421B1D533BE600A2AD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C709E8E766816A939AA323B /* Pods-Tour KenyaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Tour KenyaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +696,7 @@
 		};
 		E5BD421C1D533BE600A2AD8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3107DD8663C9135ACE564D /* Pods-Tour KenyaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Tour KenyaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,6 +725,7 @@
 				E5BD42161D533BE600A2AD8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD42171D533BE600A2AD8F /* Build configuration list for PBXNativeTarget "Tour KenyaTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +734,7 @@
 				E5BD42191D533BE600A2AD8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD421A1D533BE600A2AD8F /* Build configuration list for PBXNativeTarget "Tour KenyaUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +743,7 @@
 				E5BD421C1D533BE600A2AD8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
