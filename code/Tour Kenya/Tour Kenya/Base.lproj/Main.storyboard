@@ -27,6 +27,7 @@
                                     <segment title="View Map"/>
                                     <segment title="About Us"/>
                                 </segments>
+                                <color key="tintColor" red="0.64653170108795166" green="0.090166293084621429" blue="0.17172747850418091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="segmentIndexChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="KNL-QB-r9y"/>
                                 </connections>

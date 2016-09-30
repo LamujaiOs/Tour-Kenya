@@ -140,6 +140,7 @@ NSString *description;
     NSLog(@"Image Url",imageUrl.length);
     if([imageUrl isEqualToString:@" "]){
         cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
+        cell.imageView.sizeToFit;
     }else{
         [cell.imageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[tmpDict objectForKey:imagePlace]]]]];
         //cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
