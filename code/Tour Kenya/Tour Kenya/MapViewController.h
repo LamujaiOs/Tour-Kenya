@@ -11,6 +11,7 @@
 
 @interface MapViewController : UIViewController
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property(nonatomic,retain) CLLocationManager *locationManager;
 - (IBAction)setMap:(id)sender;
 
 @end

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UWm-C5-GCe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rbq-45-ACw">
     <dependencies>
         <deployment version="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tour Kenya-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -17,21 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sfb-0D-TCK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                <items>
-                                    <navigationItem title="Tour Kenya" id="G45-fc-hBs"/>
-                                </items>
-                            </navigationBar>
-                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Enter Location to Search" translatesAutoresizingMaskIntoConstraints="NO" id="W3L-FJ-wvi">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Qa-ET-r3R">
-                                <rect key="frame" x="8" y="139" width="362" height="520"/>
+                                <rect key="frame" x="8" y="108" width="362" height="551"/>
                             </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fyW-fK-qem">
-                                <rect key="frame" x="8" y="97" width="362" height="29"/>
+                                <rect key="frame" x="6" y="72" width="362" height="29"/>
                                 <segments>
                                     <segment title="Home"/>
                                     <segment title="View Map"/>
@@ -44,7 +34,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IPE-qb-qeb"/>
+                    <navigationItem key="navigationItem" title="Tour Kenya" id="IPE-qb-qeb"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="containerView" destination="8Qa-ET-r3R" id="3mE-bc-ved"/>
@@ -53,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1435.5" y="92.5"/>
+            <point key="canvasLocation" x="2247.5" y="92.5"/>
         </scene>
         <!--Place Details View Controller-->
         <scene sceneID="Ezj-67-Iu8">
@@ -163,7 +153,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hca-Zo-DEI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="era-B2-Cyp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-dF-a0U">
@@ -173,11 +163,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Map of Places" id="vZ2-XS-uN4"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="231-Sr-uHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1907" y="69"/>
+            <point key="canvasLocation" x="2719" y="69"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dwt-CK-gqD">
@@ -218,8 +208,11 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emG-pp-4Bn">
-                                <rect key="frame" x="267" y="372" width="98" height="30"/>
+                                <rect key="frame" x="267" y="375" width="98" height="30"/>
                                 <state key="normal" title="Get Directions"/>
+                                <connections>
+                                    <segue destination="4Kd-LO-EBH" kind="push" identifier="direction" id="UgU-Ps-7bt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2P-au-DCk">
                                 <rect key="frame" x="10" y="77" width="355" height="36"/>
@@ -263,12 +256,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJS-zb-FZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4233" y="665"/>
+            <point key="canvasLocation" x="5045" y="665"/>
         </scene>
         <!--Map Direction-->
         <scene sceneID="11M-nq-EX6">
             <objects>
-                <viewController id="4Kd-LO-EBH" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController id="4Kd-LO-EBH" customClass="MapDirectionController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BBA-A5-1Ls"/>
                         <viewControllerLayoutGuide type="bottom" id="dcJ-r4-jSV"/>
@@ -288,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3B-lD-T1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2838" y="2823"/>
+            <point key="canvasLocation" x="2949" y="2360"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mHC-tE-85e">
@@ -312,17 +305,17 @@
         <!--About Us-->
         <scene sceneID="Noj-a0-UCb">
             <objects>
-                <viewController id="p2B-P0-1Ng" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutUs" id="p2B-P0-1Ng" customClass="AboutUsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c5A-G8-TSo"/>
                         <viewControllerLayoutGuide type="bottom" id="EWs-ea-mJb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b6W-28-W57">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kpE-TL-Iqz">
-                                <rect key="frame" x="87" y="91" width="240" height="177"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourism.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kpE-TL-Iqz">
+                                <rect key="frame" x="13" y="20" width="349" height="231"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEU-1I-osc">
                                 <rect key="frame" x="0.0" y="683" width="414" height="26"/>
@@ -331,7 +324,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="qGB-jk-ogX">
-                                <rect key="frame" x="20" y="287" width="374" height="104"/>
+                                <rect key="frame" x="13" y="259" width="328" height="145"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text" base64-UTF8="YES">
 VG91ciBLZW55YSBpcyB0aGUgYmVzdCBwbGF0Zm9ybSBmb3IgdG91cmlzdCB0byBmaW5kIG91dCBhYm91
@@ -339,37 +332,18 @@ dCBpbnRlcmVzdGluZyBwbGFjZXMgdG8gdmlzaXQgaW4gS2VueWEuSXQgZW5saXN0cyB0b3VyaXN0IGRl
 c3RpbmF0aW9uIHNpdGVzIHRoYXQgYXJlIGNsb3NlIHRvIHRoZSB0b3VyaXN04oCZcyBjdXJyZW50IGxv
 Y2F0aW9uLg0KAA
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="About Us" id="1ka-LP-h16"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UE8-Cu-sCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1841" y="2840"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="yKq-Ec-go9">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b2X-mw-SO8" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aiZ-6D-HL8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="p2B-P0-1Ng" kind="relationship" relationship="rootViewController" id="ePW-xo-Mu9"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GUl-dW-uIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1029" y="2840"/>
+            <point key="canvasLocation" x="1840.5" y="2839.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3in-77-msb">
@@ -390,30 +364,32 @@ Y2F0aW9uLg0KAA
             </objects>
             <point key="canvasLocation" x="1811" y="1347"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="sz1-Gu-Gwm">
+        <!--Tour Kenya-->
+        <scene sceneID="ADy-kR-pun">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UWm-C5-GCe" sceneMemberID="viewController">
+                <navigationController title="Tour Kenya" automaticallyAdjustsScrollViewInsets="NO" id="rbq-45-ACw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3gY-Yo-3ff">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QUg-Cc-g5g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KO4-XN-Oah"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ons-oI-eKR"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dLU-cg-arw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLt-XM-f6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="92"/>
+            <point key="canvasLocation" x="1435" y="92"/>
         </scene>
     </scenes>
     <resources>
         <image name="default.jpg" width="480" height="320"/>
+        <image name="tourism.jpg" width="800" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gon-z2-4Ya"/>
+        <segue reference="263-hC-0Uh"/>
+        <segue reference="UgU-Ps-7bt"/>
     </inferredMetricsTieBreakers>
 </document>

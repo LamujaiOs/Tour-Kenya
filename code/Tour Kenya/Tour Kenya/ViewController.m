@@ -48,7 +48,7 @@
         [self cycleFromViewController:self.currentViewController toViewController:newViewController];
         self.currentViewController = newViewController;
     }else if(self.segmentControl.selectedSegmentIndex == 2){
-        UIViewController *newViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MapView"];
+        UIViewController *newViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AboutUs"];
         newViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
         [self cycleFromViewController:self.currentViewController toViewController:newViewController];
         self.currentViewController = newViewController;
