@@ -306,6 +306,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0B96C40A09111D4B61A698826C715790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9349B979F7F3F5DE8AB482452202531A /* Pods-Tour KenyaTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		0BA08F52AF5955529B52639CEB57DAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,17 +370,18 @@
 			};
 			name = Debug;
 		};
-		339328BCE64837A90B024D1D391A9582 /* Debug */ = {
+		390000595A456ECCC105BFDBA43F27B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D1C87577D314E2097E7C25D8FC2796 /* Pods-Tour KenyaTests.debug.xcconfig */;
+			baseConfigurationReference = B0967A45521C9BDADB377BB7DA293556 /* Pods-Tour KenyaUITests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -367,17 +390,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		5899E90FD36A785D482EADF75F134C77 /* Release */ = {
+		64504027410FEFCA066FC170C568EDC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0967A45521C9BDADB377BB7DA293556 /* Pods-Tour KenyaUITests.release.xcconfig */;
+			baseConfigurationReference = 529D33DEE5FBC8733C7A72E034631622 /* Pods-Tour Kenya.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -428,36 +452,16 @@
 			};
 			name = Release;
 		};
-		9075AF066A67CF600133E463F4BC4CE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4CFF1F713A3E7B7DCC4A85FF3F9D1E /* Pods-Tour Kenya.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A11186A3A3A7837D6ADFDDDB159C2E46 /* Debug */ = {
+		7F7FF81A9678179B96DFA6C4CE87A39C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6EEC5DB15B730FC94F1A562ACA48E64 /* Pods-Tour KenyaUITests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -470,17 +474,18 @@
 			};
 			name = Debug;
 		};
-		BCEEA0FCDD503BD9F3CEE82EB4458A11 /* Release */ = {
+		A61414FB39FA67BD3B640A5440862F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9349B979F7F3F5DE8AB482452202531A /* Pods-Tour KenyaTests.release.xcconfig */;
+			baseConfigurationReference = 79D1C87577D314E2097E7C25D8FC2796 /* Pods-Tour KenyaTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -489,19 +494,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		FCF03764CA57E95DE87271A5D191C5E7 /* Release */ = {
+		B5619AAD6977548005C638D3A2A0FE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 529D33DEE5FBC8733C7A72E034631622 /* Pods-Tour Kenya.release.xcconfig */;
+			baseConfigurationReference = 7B4CFF1F713A3E7B7DCC4A85FF3F9D1E /* Pods-Tour Kenya.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -510,7 +516,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -527,8 +533,8 @@
 		B19994CFBCE054E9F8B85333FAC4AB32 /* Build configuration list for PBXNativeTarget "Pods-Tour KenyaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A11186A3A3A7837D6ADFDDDB159C2E46 /* Debug */,
-				5899E90FD36A785D482EADF75F134C77 /* Release */,
+				7F7FF81A9678179B96DFA6C4CE87A39C /* Debug */,
+				390000595A456ECCC105BFDBA43F27B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -536,8 +542,8 @@
 		CAF34A2B3865A79402FCB946CFDFAFC5 /* Build configuration list for PBXNativeTarget "Pods-Tour KenyaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				339328BCE64837A90B024D1D391A9582 /* Debug */,
-				BCEEA0FCDD503BD9F3CEE82EB4458A11 /* Release */,
+				A61414FB39FA67BD3B640A5440862F9A /* Debug */,
+				0B96C40A09111D4B61A698826C715790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -545,8 +551,8 @@
 		FD7C4D22C59A2EC9752FEB7773A57DA2 /* Build configuration list for PBXNativeTarget "Pods-Tour Kenya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9075AF066A67CF600133E463F4BC4CE3 /* Debug */,
-				FCF03764CA57E95DE87271A5D191C5E7 /* Release */,
+				B5619AAD6977548005C638D3A2A0FE6A /* Debug */,
+				64504027410FEFCA066FC170C568EDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

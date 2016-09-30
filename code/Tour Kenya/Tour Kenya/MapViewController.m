@@ -7,7 +7,6 @@
 //
 
 #import "MapViewController.h"
-
 #import <GoogleMaps/GoogleMaps.h>
 
 @interface MapViewController ()
@@ -20,8 +19,9 @@
     [super viewDidLoad];
     //[self.mapView setDelegate:self];
        // Do any additional setup after loading the view.
-    
+    [GMSServices provideAPIKey:@"AIzaSyDTx77PuoEccymXy5yxUNPkVkL2MvWwz_E"];
     }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
