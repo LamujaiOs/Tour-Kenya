@@ -7,7 +7,7 @@
 //
 
 #import "PlaceDetailsViewController.h"
-
+#import "PlacePreviewController.h"
 @interface PlaceDetailsViewController ()
 
 @end
@@ -24,54 +24,30 @@ NSDictionary *dict;
 NSString *placeid;
 NSString *name;
 NSString *imagePlace;
+NSString *longitude;
+NSString *latitude;
+NSString *description;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-//    // Define keys
-//    name = @"name";
-//    placeid = @"location";
-//    image = @"mobile_no";
-//    
-//    // Create array to hold dictionaries
-//    myObject = [[NSMutableArray alloc] init];
-//    NSData *jsonData = [NSData dataWithContentsOfURL:
-//                        
-//                        [NSURL URLWithString:@"http://openarchsystemslimited.com/bePretty/artistrg.php"]];
-//  
-//    id jsonObjects = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-//    
-//  //  printf("%s",jsonObjects);
-//    
-//    // values in foreach loop
-//       for (NSDictionary *dataDict in jsonObjects) {
-//           
-//           NSString *strName = [dataDict objectForKey:@"name"];
-//           NSString *strPlaceid = [dataDict objectForKey:@"location"];
-//           NSString *strImage = [dataDict objectForKey:@"mobile_no"];
-//           
-//           dict = [NSDictionary dictionaryWithObjectsAndKeys:
-//                   strName, name,
-//                   strPlaceid, placeid,
-//                   strImage, image,
-//                                nil];
-//           [myObject addObject:dict];
-//        
-//       }
+
     
 
     name = @"name";
-    placeid = @"location";
+    placeid = @"place_id";
     imagePlace = @"image";
+    longitude=@"longitude";
+    latitude=@"latitude";
+    description=@"description";
     
     myObject = [[NSMutableArray alloc] init];
     
     
     
     NSError *error;
-    NSString *url_string = [NSString stringWithFormat: @"http://e494b912.ngrok.io/tourkenya/placeskenya.php"];
+    NSString *url_string = [NSString stringWithFormat: @"http://balequip.stazal.com/tourkenya/placeskenya.php"];
     NSLog(@"json: %@", url_string);
     NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
     //NSLog(@"json: %@", data);
@@ -82,13 +58,19 @@ NSString *imagePlace;
     for (NSDictionary *dataDict in json) {
         
                    NSString *strName = [dataDict objectForKey:@"name"];
-                   NSString *strPlaceid = [dataDict objectForKey:@"location"];
+                   NSString *strPlaceid = [dataDict objectForKey:@"place_id"];
                    NSString *strImage = [dataDict objectForKey:@"image"];
+                   NSString *strLongitude = [dataDict objectForKey:@"longitude"];
+                   NSString *strLatitude = [dataDict objectForKey:@"latitude"];
+                   NSString *strDescription = [dataDict objectForKey:@"description"];
         
                    dict = [NSDictionary dictionaryWithObjectsAndKeys:
                            strName, name,
                            strPlaceid, placeid,
                            strImage, imagePlace,
+                           strLongitude,longitude,
+                           strLatitude,latitude,
+                           strDescription,description,
                                         nil];
                    [myObject addObject:dict];
                 
@@ -123,7 +105,7 @@ NSString *imagePlace;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
@@ -138,7 +120,7 @@ NSString *imagePlace;
     NSMutableString *text;
     
     text = [NSString stringWithFormat: [tmpDict objectForKey:name]];
-    
+    NSLog(@"Text:",text);
     cell.textLabel.text = text;
     
     NSMutableString *detail;
@@ -152,15 +134,15 @@ NSString *imagePlace;
               
               ,[tmpDict objectForKey:placeid]];
     
-   // cell.detailTextLabel.text= detail;
+     cell.detailTextLabel.text= [tmpDict objectForKey:imagePlace];
     //cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
         NSMutableString *imageUrl;
-        imageUrl=[NSString stringWithFormat: [tmpDict objectForKey:imagePlace]];
-//    NSLog(@"Image Url",imageUrl);
-    if([imagePlace isEqualToString:@" "]){
+    imageUrl=[NSString stringWithFormat: [tmpDict objectForKey:imagePlace]];
+    NSLog(@"Image Url",imageUrl.length);
+    if([imageUrl isEqualToString:@" "]){
         cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
     }else{
-        [cell.imageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://e494b912.ngrok.io/tourkenya/img/wilson_airport.jpg"]]]];
+        [cell.imageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[tmpDict objectForKey:imagePlace]]]]];
         //cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
     }
     
@@ -169,4 +151,16 @@ NSString *imagePlace;
     
 
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"preview"]) {
+        NSIndexPath *indexPath = [self.placesTable indexPathForSelectedRow];
+        PlacePreviewController *destViewController = segue.destinationViewController;
+        destViewController.placeObject=[myObject objectAtIndex:indexPath.row];
+   }
+}
+
+
+
+
 @end

@@ -19,6 +19,7 @@
 		06FDF271CE2B3615CB3AE90EAE74EDC4 /* Pods-Tour Kenya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tour Kenya-dummy.m"; sourceTree = "<group>"; };
 		090D566BC594FB8DDD351D3168ED1FDE /* Pods-Tour Kenya-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour Kenya-resources.sh"; sourceTree = "<group>"; };
 		1E774E240576984524AE8980E798C1F6 /* Pods-Tour KenyaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tour KenyaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		213B1724C62BE8BC65F92A9BC1A24B5B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		335590A23917196CF56C7664E7ECB694 /* Pods-Tour Kenya-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tour Kenya-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44B5405F093AA382B3FDA488AE7E67C0 /* Pods-Tour Kenya-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tour Kenya-acknowledgements.plist"; sourceTree = "<group>"; };
 		529D33DEE5FBC8733C7A72E034631622 /* Pods-Tour Kenya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour Kenya.release.xcconfig"; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		9349B979F7F3F5DE8AB482452202531A /* Pods-Tour KenyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tour KenyaTests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98E575A7F738622EA2B5867A08811052 /* libPods-Tour KenyaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour KenyaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E17161130B27DB46F01569D1C6C5443 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		A19247F780E214F629BC274E34D2F8B1 /* Pods-Tour KenyaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tour KenyaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A1B48D3A5F4691C48187D503F104E746 /* Pods-Tour KenyaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour KenyaUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A91BD68710F39F9200999DD4A96BDB0C /* Pods-Tour KenyaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tour KenyaTests-resources.sh"; sourceTree = "<group>"; };
@@ -80,6 +82,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		552C04C99B9EC7FD6897DEAA23CA97B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213B1724C62BE8BC65F92A9BC1A24B5B /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAA2E410E8C08C05E23E73307973F577 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6E6B64787C7F4A7848E2A3F4D57627B7 /* Pods-Tour KenyaTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +128,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
 				E27AECE8ACADFF30B062CDB452C67970 /* Products */,
 				775ED1A73F2BDB702C75E68959EAC3E5 /* Targets Support Files */,
 			);
@@ -130,6 +149,15 @@
 			path = "Target Support Files/Pods-Tour KenyaUITests";
 			sourceTree = "<group>";
 		};
+		AAA2E410E8C08C05E23E73307973F577 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				552C04C99B9EC7FD6897DEAA23CA97B2 /* Frameworks */,
+				BA6CC55F7C3DC98EA32DB381E76D8A4B /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
 		B38DC0E342B3CB6E7A180B16AD9B18AF /* Pods-Tour Kenya */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +171,14 @@
 			);
 			name = "Pods-Tour Kenya";
 			path = "Target Support Files/Pods-Tour Kenya";
+			sourceTree = "<group>";
+		};
+		BA6CC55F7C3DC98EA32DB381E76D8A4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E17161130B27DB46F01569D1C6C5443 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {

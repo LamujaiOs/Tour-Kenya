@@ -11,5 +11,5 @@
 @interface PlaceDetailsViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *placesTable;
-
+@property (strong, nonatomic) NSDictionary *placeObject;
 @end

@@ -8,6 +8,8 @@
 
 #import "MapViewController.h"
 
+#import <GoogleMaps/GoogleMaps.h>
+
 @interface MapViewController ()
 
 @end
@@ -18,7 +20,8 @@
     [super viewDidLoad];
     //[self.mapView setDelegate:self];
        // Do any additional setup after loading the view.
-}
+    
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

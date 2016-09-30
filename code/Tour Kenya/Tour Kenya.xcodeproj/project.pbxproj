@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		116B1CA6C77E7B27E5E4FF44 /* libPods-Tour KenyaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */; };
+		A16B2D971D9D625500407BF2 /* PlacePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16B2D961D9D625500407BF2 /* PlacePreviewController.m */; };
+		A16B2D9A1D9D669D00407BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16B2D981D9D669C00407BF2 /* Main.storyboard */; };
 		A16CA1AF1D9BB74000F5DC7D /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CA1AE1D9BB74000F5DC7D /* Place.m */; };
 		A16CA1B11D9BDB4100F5DC7D /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16CA1B01D9BDB4100F5DC7D /* default.jpg */; };
 		A172AB2A1D59F13C00C187B9 /* PlaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A172AB291D59F13C00C187B9 /* PlaceDetailsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A172AB2D1D59FAA200C187B9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A172AB2C1D59FAA200C187B9 /* MapViewController.m */; };
 		A1A6BC931D5A0129003E55C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */; };
-		A1A6BC951D5A013D003E55C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A6BC941D5A013D003E55C4 /* MapKit.framework */; };
+		A1A6BC951D5A013D003E55C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A6BC941D5A013D003E55C4 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A1F63F661D9E69EA00C6A5DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F651D9E69EA00C6A5DD /* CoreData.framework */; };
+		A1F63F8D1D9E777400C6A5DD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F8C1D9E777400C6A5DD /* Accelerate.framework */; };
+		A1F63F8F1D9E777C00C6A5DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F8E1D9E777C00C6A5DD /* UIKit.framework */; };
+		A1F63F911D9E778E00C6A5DD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F901D9E778E00C6A5DD /* GLKit.framework */; };
+		A1F63F931D9E77B400C6A5DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F921D9E77B400C6A5DD /* SystemConfiguration.framework */; };
+		A1F63F951D9E77C600C6A5DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F941D9E77C600C6A5DD /* CoreGraphics.framework */; };
 		BBC7A206CA5BC2BE80071D1F /* libPods-Tour KenyaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0BF2BFDF507043036633C /* libPods-Tour KenyaTests.a */; };
 		E5BD41E91D533BE600A2AD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41E81D533BE600A2AD8F /* main.m */; };
 		E5BD41EC1D533BE600A2AD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */; };
 		E5BD41EF1D533BE600A2AD8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41EE1D533BE600A2AD8F /* ViewController.m */; };
-		E5BD41F21D533BE600A2AD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD41F01D533BE600A2AD8F /* Main.storyboard */; };
 		E5BD41F51D533BE600A2AD8F /* Tour_Kenya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41F31D533BE600A2AD8F /* Tour_Kenya.xcdatamodeld */; };
 		E5BD41F71D533BE600A2AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BD41F61D533BE600A2AD8F /* Assets.xcassets */; };
 		E5BD41FA1D533BE600A2AD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD41F81D533BE600A2AD8F /* LaunchScreen.storyboard */; };
@@ -52,6 +59,9 @@
 		76ACA0153E41E2774D4F5008 /* Pods-Tour KenyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C709E8E766816A939AA323B /* Pods-Tour KenyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaUITests/Pods-Tour KenyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C75FAF9C4D3B8EF9D2092CE /* Pods-Tour Kenya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour Kenya.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour Kenya/Pods-Tour Kenya.release.xcconfig"; sourceTree = "<group>"; };
+		A16B2D951D9D625500407BF2 /* PlacePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacePreviewController.h; sourceTree = "<group>"; };
+		A16B2D961D9D625500407BF2 /* PlacePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacePreviewController.m; sourceTree = "<group>"; };
+		A16B2D991D9D669D00407BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16CA1AD1D9BB74000F5DC7D /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		A16CA1AE1D9BB74000F5DC7D /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		A16CA1B01D9BDB4100F5DC7D /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = default.jpg; path = ../default.jpg; sourceTree = "<group>"; };
@@ -61,6 +71,12 @@
 		A172AB2C1D59FAA200C187B9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A1A6BC941D5A013D003E55C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A1F63F651D9E69EA00C6A5DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1F63F8C1D9E777400C6A5DD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A1F63F8E1D9E777C00C6A5DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1F63F901D9E778E00C6A5DD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A1F63F921D9E77B400C6A5DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1F63F941D9E77C600C6A5DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A91DD6B051482D866C71E9E2 /* Pods-Tour KenyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour KenyaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD41E41D533BE600A2AD8F /* Tour Kenya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Kenya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +85,6 @@
 		E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5BD41ED1D533BE600A2AD8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5BD41EE1D533BE600A2AD8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E5BD41F11D533BE600A2AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5BD41F41D533BE600A2AD8F /* Tour_Kenya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tour_Kenya.xcdatamodel; sourceTree = "<group>"; };
 		E5BD41F61D533BE600A2AD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BD41F91D533BE600A2AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,6 +102,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F63F951D9E77C600C6A5DD /* CoreGraphics.framework in Frameworks */,
+				A1F63F931D9E77B400C6A5DD /* SystemConfiguration.framework in Frameworks */,
+				A1F63F911D9E778E00C6A5DD /* GLKit.framework in Frameworks */,
+				A1F63F8F1D9E777C00C6A5DD /* UIKit.framework in Frameworks */,
+				A1F63F8D1D9E777400C6A5DD /* Accelerate.framework in Frameworks */,
+				A1F63F661D9E69EA00C6A5DD /* CoreData.framework in Frameworks */,
 				A1A6BC951D5A013D003E55C4 /* MapKit.framework in Frameworks */,
 				A1A6BC931D5A0129003E55C4 /* CoreLocation.framework in Frameworks */,
 				ECA1D5A2217C08300D2EE48E /* libPods-Tour Kenya.a in Frameworks */,
@@ -121,6 +142,8 @@
 				A172AB291D59F13C00C187B9 /* PlaceDetailsViewController.m */,
 				A172AB2B1D59FAA200C187B9 /* MapViewController.h */,
 				A172AB2C1D59FAA200C187B9 /* MapViewController.m */,
+				A16B2D961D9D625500407BF2 /* PlacePreviewController.m */,
+				A16B2D951D9D625500407BF2 /* PlacePreviewController.h */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +160,12 @@
 		AC328119F85A84A2CC779DC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1F63F941D9E77C600C6A5DD /* CoreGraphics.framework */,
+				A1F63F921D9E77B400C6A5DD /* SystemConfiguration.framework */,
+				A1F63F901D9E778E00C6A5DD /* GLKit.framework */,
+				A1F63F8E1D9E777C00C6A5DD /* UIKit.framework */,
+				A1F63F8C1D9E777400C6A5DD /* Accelerate.framework */,
+				A1F63F651D9E69EA00C6A5DD /* CoreData.framework */,
 				A1A6BC941D5A013D003E55C4 /* MapKit.framework */,
 				A1A6BC921D5A0129003E55C4 /* CoreLocation.framework */,
 				6C0C2E36AD8B129477647BC1 /* libPods-Tour Kenya.a */,
@@ -189,7 +218,7 @@
 				A172AB261D59ED1D00C187B9 /* Controllers */,
 				E5BD41EA1D533BE600A2AD8F /* AppDelegate.h */,
 				E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */,
-				E5BD41F01D533BE600A2AD8F /* Main.storyboard */,
+				A16B2D981D9D669C00407BF2 /* Main.storyboard */,
 				E5BD41F61D533BE600A2AD8F /* Assets.xcassets */,
 				E5BD41F81D533BE600A2AD8F /* LaunchScreen.storyboard */,
 				E5BD41FB1D533BE600A2AD8F /* Info.plist */,
@@ -338,8 +367,8 @@
 			files = (
 				E5BD41FA1D533BE600A2AD8F /* LaunchScreen.storyboard in Resources */,
 				E5BD41F71D533BE600A2AD8F /* Assets.xcassets in Resources */,
-				E5BD41F21D533BE600A2AD8F /* Main.storyboard in Resources */,
 				A16CA1B11D9BDB4100F5DC7D /* default.jpg in Resources */,
+				A16B2D9A1D9D669D00407BF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +522,7 @@
 				E5BD41EF1D533BE600A2AD8F /* ViewController.m in Sources */,
 				A172AB2D1D59FAA200C187B9 /* MapViewController.m in Sources */,
 				E5BD41EC1D533BE600A2AD8F /* AppDelegate.m in Sources */,
+				A16B2D971D9D625500407BF2 /* PlacePreviewController.m in Sources */,
 				E5BD41E91D533BE600A2AD8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,10 +559,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5BD41F01D533BE600A2AD8F /* Main.storyboard */ = {
+		A16B2D981D9D669C00407BF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5BD41F11D533BE600A2AD8F /* Base */,
+				A16B2D991D9D669D00407BF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -635,6 +665,18 @@
 			baseConfigurationReference = 23F0B4BA41470B7EB7510958 /* Pods-Tour Kenya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/Maps/Frameworks,
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/M4B/Frameworks,
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/Base/Frameworks,
+				);
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Tour Kenya/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -648,6 +690,17 @@
 			baseConfigurationReference = 9C75FAF9C4D3B8EF9D2092CE /* Pods-Tour Kenya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/Maps/Frameworks,
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/M4B/Frameworks,
+					"$(PROJECT_DIR)/Tour",
+					Kenya/Subspecs/Base/Frameworks,
+				);
 				INFOPLIST_FILE = "Tour Kenya/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -38,7 +38,7 @@
 - (IBAction)segmentIndexChanged:(id)sender {
     
     if (self.segmentControl.selectedSegmentIndex == 0) {
-        UIViewController *newViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MapView"];
+        UIViewController *newViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ListView"];
         newViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
         [self cycleFromViewController:self.currentViewController toViewController:newViewController];
         self.currentViewController = newViewController;
@@ -101,4 +101,5 @@
                          [newViewController didMoveToParentViewController:self];
                      }];
 }
+
 @end
