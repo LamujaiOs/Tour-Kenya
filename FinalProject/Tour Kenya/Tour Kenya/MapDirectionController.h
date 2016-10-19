@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MapDirectionController : UIViewController
+@property (nonatomic,strong) NSDictionary *locationObject;
 
 @end

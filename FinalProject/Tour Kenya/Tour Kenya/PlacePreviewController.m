@@ -7,6 +7,7 @@
 //
 
 #import "PlacePreviewController.h"
+#import "MapDirectionController.h"
 
 @interface PlacePreviewController ()
 
@@ -34,8 +35,8 @@
     place_description=[_placeObject objectForKey:@"description"];
     _placeDescription.text=place_description;
     
-    place_latitude=[_placeObject objectForKey:@"latitude"];
-    place_longitude=[_placeObject objectForKey:@"lonitude"];
+//    place_latitude=[_placeObject objectForKey:@"latitude"];
+//    place_longitude=[_placeObject objectForKey:@"lonitude"];
     
     imageUrl=[_placeObject objectForKey:@"image"];
     NSLog(@"url: ",imageUrl);
@@ -71,5 +72,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"direction"]) {
+      
+        MapDirectionController *destViewController = segue.destinationViewController;
+        destViewController.locationObject=_placeObject;
+    }
+}
+
 
 @end

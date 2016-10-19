@@ -466,7 +466,7 @@
 				);
 				INFOPLIST_FILE = FacebookDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.091681.FacebookDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.091674.FacebookDemo;
 				PRODUCT_NAME = "Facebook App";
 			};
 			name = Debug;
@@ -482,7 +482,7 @@
 				);
 				INFOPLIST_FILE = FacebookDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.091681.FacebookDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.091674.FacebookDemo;
 				PRODUCT_NAME = "Facebook App";
 			};
 			name = Release;

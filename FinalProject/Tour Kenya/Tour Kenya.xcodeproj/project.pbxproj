@@ -25,7 +25,6 @@
 		A1F63F9D1D9E93B700C6A5DD /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F63F9C1D9E93B700C6A5DD /* GoogleMaps.framework */; };
 		A1F63FA41D9E9EEA00C6A5DD /* MapDirectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F63FA31D9E9EEA00C6A5DD /* MapDirectionController.m */; };
 		A1F63FA71D9EBF7400C6A5DD /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F63FA61D9EBF7400C6A5DD /* AboutUsViewController.m */; };
-		A1F63FA91D9EC00F00C6A5DD /* tourism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1F63FA81D9EC00F00C6A5DD /* tourism.jpg */; };
 		BBC7A206CA5BC2BE80071D1F /* libPods-Tour KenyaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0BF2BFDF507043036633C /* libPods-Tour KenyaTests.a */; };
 		E5BD41E91D533BE600A2AD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41E81D533BE600A2AD8F /* main.m */; };
 		E5BD41EC1D533BE600A2AD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD41EB1D533BE600A2AD8F /* AppDelegate.m */; };
@@ -86,7 +85,6 @@
 		A1F63FA31D9E9EEA00C6A5DD /* MapDirectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDirectionController.m; sourceTree = "<group>"; };
 		A1F63FA51D9EBF7400C6A5DD /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
 		A1F63FA61D9EBF7400C6A5DD /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
-		A1F63FA81D9EC00F00C6A5DD /* tourism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tourism.jpg; path = "../../../../../Desktop/untitled folder 3/tourism.jpg"; sourceTree = "<group>"; };
 		A91DD6B051482D866C71E9E2 /* Pods-Tour KenyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour KenyaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour KenyaTests/Pods-Tour KenyaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD6866D7FB7916F6CD824DFA /* libPods-Tour KenyaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tour KenyaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD41E41D533BE600A2AD8F /* Tour Kenya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Kenya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,7 +227,6 @@
 		E5BD41E61D533BE600A2AD8F /* Tour Kenya */ = {
 			isa = PBXGroup;
 			children = (
-				A1F63FA81D9EC00F00C6A5DD /* tourism.jpg */,
 				A16CA1B01D9BDB4100F5DC7D /* default.jpg */,
 				A172AB271D59ED2600C187B9 /* Models */,
 				A172AB261D59ED1D00C187B9 /* Controllers */,
@@ -385,7 +382,6 @@
 				E5BD41FA1D533BE600A2AD8F /* LaunchScreen.storyboard in Resources */,
 				E5BD41F71D533BE600A2AD8F /* Assets.xcassets in Resources */,
 				A16CA1B11D9BDB4100F5DC7D /* default.jpg in Resources */,
-				A1F63FA91D9EC00F00C6A5DD /* tourism.jpg in Resources */,
 				A16B2D9A1D9D669D00407BF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

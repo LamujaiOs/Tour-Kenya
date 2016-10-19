@@ -123,17 +123,17 @@ NSString *description;
     cell.textLabel.text = text;
     
     NSMutableString *detail;
-    detail = [NSString stringWithFormat:@"Location : %@ , Mobile : %@"
-              
-              
-              
-              ,[tmpDict objectForKey:name]
-              
-              
-              
-              ,[tmpDict objectForKey:placeid]];
-    
-     cell.detailTextLabel.text= [tmpDict objectForKey:imagePlace];
+//    detail = [NSString stringWithFormat:@"Location : %@ , Mobile : %@"
+//              
+//              
+//              
+//              ,[tmpDict objectForKey:name]
+//              
+//              
+//              
+//              ,[tmpDict objectForKey:placeid]];
+//    
+//     cell.detailTextLabel.text= [tmpDict objectForKey:imagePlace];
     //cell.imageView.image = [UIImage imageNamed:@"default.JPG"];
         NSMutableString *imageUrl;
     imageUrl=[NSString stringWithFormat: [tmpDict objectForKey:imagePlace]];
